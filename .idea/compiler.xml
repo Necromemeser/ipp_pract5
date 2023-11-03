@@ -7,8 +7,16 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="practice5.main" />
+        <module name="Practice_6.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="practice5" target="17" />
+      <module name="practice5.main" target="17" />
+      <module name="practice5.test" target="17" />
+      <module name="ru.sinforge.practice5" target="17" />
+      <module name="ru.sinforge.practice5.main" target="17" />
+      <module name="ru.sinforge.practice5.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
